@@ -2,6 +2,7 @@ package com.example.demo.domain;
 
 import com.example.demo.domain.Customer;
 import com.example.demo.domain.CustomerService;
+import com.example.demo.web.CustomerSort;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -25,7 +26,7 @@ class CustomerServiceTest {
 
         List<Customer> customers = Arrays.asList(second, first, third);
 
-        List<Customer> sorted = service.sortCustomersByDueTime(customers);
+        List<Customer> sorted = service.sortCustomers(customers, CustomerSort.DUE_TIME_ASC);
         Assertions.assertThat(sorted).containsExactly(first, second, third);
     }
 
