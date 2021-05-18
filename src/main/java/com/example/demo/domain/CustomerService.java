@@ -1,6 +1,5 @@
 package com.example.demo.domain;
 
-import com.example.demo.web.CustomerSort;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 

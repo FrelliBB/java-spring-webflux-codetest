@@ -2,6 +2,7 @@ package com.example.demo.web;
 
 import com.example.demo.domain.Customer;
 import com.example.demo.domain.CustomerService;
+import com.example.demo.domain.CustomerSort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

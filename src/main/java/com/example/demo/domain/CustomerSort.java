@@ -1,6 +1,5 @@
-package com.example.demo.web;
+package com.example.demo.domain;
 
-import com.example.demo.domain.Customer;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

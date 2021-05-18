@@ -7,7 +7,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.List;
 
-import static com.example.demo.web.CustomerSort.DUE_TIME_ASC;
+import static com.example.demo.domain.CustomerSort.DUE_TIME_ASC;
 import static java.time.Duration.ofSeconds;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;

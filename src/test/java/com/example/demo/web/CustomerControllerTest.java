@@ -1,6 +1,7 @@
 package com.example.demo.web;
 
 import com.example.demo.domain.Customer;
+import com.example.demo.domain.CustomerSort;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
