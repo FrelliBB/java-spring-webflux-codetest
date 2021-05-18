@@ -2,6 +2,9 @@
 
 ## Requirements 
 
+<details>
+  <summary>Click to expand requirements</summary>
+
 * Fork this project.
 * Start project in the chosen framework.
 * Provide an API which accepts a list of JSON `Customer` objects in the body of
@@ -21,7 +24,9 @@ Bonus point:
 * Add some tests to ensure your code works as expected. Is it better to test the
   controller or test the service layer directly? Either approach is valid so
   long as you can justify it.
-  
+
+</details>
+
 ## Running 
 
 The repository provides a maven wrapper to enable running the application without requiring mvn to be installed. To run 
