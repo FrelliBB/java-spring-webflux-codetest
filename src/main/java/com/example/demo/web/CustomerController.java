@@ -19,7 +19,7 @@ public class CustomerController {
 
     @PostMapping("/customers/sort")
     public Flux<Customer> sortCustomers(@RequestBody List<Customer> request,
-                                        @RequestParam(value = "order", defaultValue = CustomerSort.DEFAULT) CustomerSort order) {
+                                        @RequestParam(value = "order", defaultValue = CustomerSort.DEFAULT_VALUE) CustomerSort order) {
         return Flux.fromIterable(customerService.sortCustomers(request, order));
     }
 
