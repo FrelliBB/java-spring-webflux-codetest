@@ -13,7 +13,6 @@ public class JavaSpringWebfluxApplication {
         SpringApplication.run(JavaSpringWebfluxApplication.class, args);
     }
 
-
     @Bean
     public Jackson2ObjectMapperBuilderCustomizer jsonCustomizer() {
         return builder -> builder.featuresToDisable(DeserializationFeature.ADJUST_DATES_TO_CONTEXT_TIME_ZONE);

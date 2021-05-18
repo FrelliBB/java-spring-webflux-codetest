@@ -1,4 +1,4 @@
-POST http://localhost:8080/customers/sort
+POST http://localhost:8080/customers/sort?order=DUE_TIME_ASC
 Content-Type: application/json
 
 < ./src/test/resources/customers.json
